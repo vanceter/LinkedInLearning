@@ -1,0 +1,45 @@
+fav_movies = ["Red Dawn", "Road House", "Top Gun", "Say Anything", "Singles", "Raiders of the Lost Ark", "Star Wars", "Return of the Jedi" ]
+
+print(f"My all time favorite move, from my list of favorite movies, would have to be...\n\n\n\n{fav_movies[5]}\n")
+
+fav_bands = ["Metallica", "INXS", "Pearl Jam"]
+print(len(fav_bands))
+print(fav_bands)
+
+
+fav_bands.append("New Order")
+
+print(len(fav_bands))
+
+fav_bands.insert(2,"Dave Matthews Band")
+print(fav_bands)
+print(len(fav_bands))
+
+print(fav_bands)
+
+del(fav_bands[2])
+print(fav_bands)
+
+#for number in range(10):
+ # print("Hello")
+ # print("Goodbye")
+ # print(number)
+
+
+#fav_teams = ["Buccaneers", "Cavs", "Rowdies", "Giants"]
+
+#for movie in fav_teams:
+ # print(movie)
+
+for number in range(40):
+  print(number*number)
+  
+  cats = {"Pussy":6, "Tom":2, "Kitty":14}
+
+cats["Wilson"] =1
+
+print(cats["Tom"])
+print(cats)
+
+weird = {0:True, 1:False}
+print(weird[0])
