@@ -1,3 +1,6 @@
+# 2022/11 LinkedIn python class
+# fortune cookie app
+
 import random
 lucky_number = random.randint(1,100)
 
